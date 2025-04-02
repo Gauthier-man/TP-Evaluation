@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+
+}
+
+.main-container {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background: black;
+        color: white;
+    }
+}
+
+input {
+    padding: 10px 20px;
+}
+
+li {
+    list-style: none;
+}

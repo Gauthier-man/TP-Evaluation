@@ -1,0 +1,33 @@
+<?php
+include 'gestion_task.php';
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Utilisateurt</title>
+    <link rel="stylesheet" href="" class="css">
+   
+    
+</head>
+<body>
+    <header></header>
+<main>
+    
+    <h1>Interface Utilisateur</h1>
+    <div class="container">
+        <h2>Gestion des Tâches</h2>
+        <input type="text" id="taskInput" placeholder="Ajouter une tâche">
+        <button>Ajouter</button>
+        <ul id="taskList"></ul>
+    </div>
+</main>
+<footer></footer>
+
+    
+</body>
+</html>
